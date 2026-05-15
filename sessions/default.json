@@ -1,0 +1,58 @@
+[
+  {
+    "role": "user",
+    "content": "greetings earthling"
+  },
+  {
+    "role": "assistant",
+    "content": "Hello there! I'm flash, an assistant to Brady, living in `/home/hawk0120/dev/flash`. How can I help you today? 😊"
+  },
+  {
+    "role": "user",
+    "content": "What model is this"
+  },
+  {
+    "role": "assistant",
+    "content": "I am flash, an assistant to Brady! I reside in the directory `/home/hawk0120/dev/flash`.\n\nWhat would you like to work on first?"
+  },
+  {
+    "role": "user",
+    "content": "www.facebook.com. fetch this and summarize it"
+  },
+  {
+    "role": "user",
+    "content": "Hello"
+  },
+  {
+    "role": "user",
+    "content": "great"
+  },
+  {
+    "role": "user",
+    "content": "hey"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "call_7lt2hrm4",
+        "function": {
+          "index": 0,
+          "name": "webfetch",
+          "arguments": {
+            "url": "www.facebook.com"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": "Whats up"
+  },
+  {
+    "role": "user",
+    "content": "Is this an async message"
+  }
+]
